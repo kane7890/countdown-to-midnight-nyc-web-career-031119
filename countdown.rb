@@ -3,8 +3,8 @@
 def countdown (num)
   count = num 
   while (count > 0)
-    puts "#{count} SECOND(S)!"
     count -= 1
+    puts "#{count} SECOND(S)!"
   end
   puts "HAPPY NEW YEAR!"
 end
